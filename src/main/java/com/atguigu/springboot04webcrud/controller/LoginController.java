@@ -10,6 +10,14 @@ import java.util.Map;
 @Controller
 public class LoginController {
 
+    /**
+     * login
+     * @param username
+     * @param password
+     * @param resultMap
+     * @param httpSession
+     * @return
+     */
     @PostMapping("/user/login")
     public String login(String username,String password, Map<String,Object> resultMap,HttpSession httpSession) {
         if(!StringUtils.isEmpty(username) && "123456".equals(password)) {
