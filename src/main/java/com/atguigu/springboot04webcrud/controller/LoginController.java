@@ -11,7 +11,7 @@ import java.util.Map;
 public class LoginController {
 
     /**
-     * login 111
+     * login
      * @param username
      * @param password
      * @param resultMap
