@@ -102,7 +102,7 @@
 		</script>
 		<script>
 			$('.deleteBtn').click(function () {
-			    $('#deleteEmpForm').attr('action',$('.deleteBtn').attr('del_uri')).submit();
+			    $('#deleteEmpForm').attr('action',$(this).attr('del_uri')).submit();
 				return false;
             });
 		</script>
